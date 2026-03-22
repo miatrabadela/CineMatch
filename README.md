@@ -6,7 +6,7 @@ CineMatch is a movie recommendation app built for people who actually care about
 ---
 # Skills Used:
 - Vector embeddings and semantic search (the technical core.) Unlike using keyword matching or collaborative filtering, like Netflix's early system, I'm representing meaning as geometry, as similar films literally live close together in 384-dimensional space. This is the same architecture used in production at Spotify, Pinterest, and Airbnb for recommendations at a large scale.
-- ETL data pipeline. I do this by taking two messy CSVs from Kaggle (movies + credits), parsing nested JSON columns inside those CSVs, deriving new features (uniqueness score, runtime class, rating tier, IMAX heuristic), joining the two datasets on a shared ID, cleaning bad rows, and producing a clean indexed dataset.
+- ETL data pipeline. I do this by taking over nine messy CSVs from Kaggle (movies + credits), parsing nested JSON columns inside those CSVs, deriving new features (uniqueness score, runtime class, rating tier, IMAX heuristic), joining the nine datasets on a shared ID, cleaning bad rows, and producing a clean indexed dataset.
 - Retrieve-then-filter architecture (a pattern used in every production search and recommendation system.) FAISS handles the fast approximate retrieval, and structured Python filters handle the business logic.
 - Feature engineering (the uniqueness score) I derived a meaningful signal (how unconventional a film's plot is) from raw TMDB keyword data, using a domain-informed heuristic.
 - LLM integration as a reasoning layer (Claude isn't doing the recommendation, FAISS is.) Claude is doing what LLMs are actually good at: taking a small structured candidate set and generating nuanced natural-language reasoning about it.
