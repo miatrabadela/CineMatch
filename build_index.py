@@ -374,7 +374,7 @@ def main():
     df = df[df["overview"].str.len() >= 20]
     if "vote_count" in df.columns:
         df = df[df["vote_count"] >= 10]
-    df = df.reset_index(drop=True)df = df.reset_index(drop=True)
+    df = df.reset_index(drop=True)
 
     # Cap at 15000 movies to stay within memory limits
     # Sort by popularity first, so you keep the best-known films
