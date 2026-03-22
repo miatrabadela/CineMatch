@@ -27,30 +27,30 @@ Open a terminal in VSCode and run:<br>
 - bashgit clone https://github.com/yourusername/CineMatch.git<br>
 - cd CineMatch<br>
 
+
 Step 2 — Set up your Python environment<br>
 - bashpython -m venv venv<br>
 Then activate it:<br>
-
 Windows: venv\Scripts\activate<br>
 Mac/Linux: source venv/bin/activate<br>
-
 You'll know it worked when you see (venv) at the start of your terminal line.<br>
 Then install all dependencies:<br>
 - bashpip install -r requirements.txt<br>
 
-Step 3 — Download the movie dataset<br>
 
+Step 3 — Download the movie dataset<br>
 Go to kaggle.com/datasets/tmdb/tmdb-movie-metadata<br>
 Click Download — you'll get a ZIP file<br>
 Unzip it and place both files inside the data/ folder in your project:<br>
-
 - tmdb_5000_movies.csv
 - tmdb_5000_credits.csv
+
 
 Step 4 — Build the movie index<br>
 This is a one-time setup step that reads the dataset, converts every movie into a searchable vector, and saves it to disk. It takes around 5–10 minutes the first time.
 - bashpython 1_build_index.py<br>
 You'll see a progress bar as it processes movies. When it finishes, you'll see two new files appear in the embeddings/ folder. You never need to run this again unless you swap out the dataset.<br>
+
 
 Step 5 — Launch the app<br>
 - bashstreamlit run 4_app.py
