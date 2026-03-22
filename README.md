@@ -50,6 +50,7 @@ Unzip it and place both files inside the data/ folder in your project:<br>
 Step 4 — Build the movie index<br>
 This is a one-time setup step that reads the dataset, converts every movie into a searchable vector, and saves it to disk. It takes around 5–10 minutes the first time.
 In bash terminal:
+- python merge_datasets.py<br>
 - python build_index.py<br>
 You'll see a progress bar as it processes movies. When it finishes, you'll see two new files appear in the embeddings/ folder. You never need to run this again unless you swap out the dataset.<br>
 
