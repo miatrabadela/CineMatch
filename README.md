@@ -60,6 +60,6 @@ The app will walk you through the rest — including whether you want to add a C
 Optional — Letterboxd export<br>
 If you have a Letterboxd account and want the app to automatically build your taste profile from your real watch history:
 - Log in at letterboxd.com
-- Go to Settings → Import & Export → Export Your Data
+- Go to Settings → Data → Export Your Data
 - Download and unzip the file
 - In the app, upload ratings.csv using the file uploader in the sidebar
