@@ -57,7 +57,7 @@ You'll see a progress bar as it processes movies. When it finishes, you'll see t
 
 Step 5 — Launch the app<br>
 In bash terminal:
-- streamlit run 4_app.py
+- streamlit run 4_app.py<br>
 Your browser will open automatically at http://localhost:8501. If it doesn't, just open that address manually.<br>
 The app will walk you through the rest — including whether you want to add a Claude API key for AI-powered explanations. That part is optional and the app works fully without it.<br>
 
