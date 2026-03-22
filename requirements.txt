@@ -1,0 +1,16 @@
+
+# ── Core ML / embeddings ──────────────────────────────────────────────────────
+sentence-transformers==3.0.1   # Converts text → dense float vectors
+faiss-cpu==1.8.0               # Facebook AI Similarity Search — fast nearest-neighbor lookup
+numpy==1.26.4                  # Numerical arrays (FAISS works with numpy arrays)
+
+# ── Data handling ─────────────────────────────────────────────────────────────
+pandas==2.2.2                  # DataFrame library for CSV parsing and cleaning
+tqdm==4.66.4                   # Progress bars (nice for long embedding loops)
+
+# ── API / networking ──────────────────────────────────────────────────────────
+anthropic==0.28.0              # Official Anthropic Python SDK
+python-dotenv==1.0.1           # Load ANTHROPIC_API_KEY from a .env file
+
+# ── Web UI ────────────────────────────────────────────────────────────────────
+streamlit==1.36.0              # Instant Python web apps — no HTML/JS needed

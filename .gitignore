@@ -1,0 +1,8 @@
+.env
+embeddings/
+data/*.csv
+data/*.zip
+__pycache__/
+*.pyc
+.DS_Store
+venv/
