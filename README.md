@@ -23,21 +23,31 @@ What you need before starting:<br>
 - A free Kaggle account — needed to download the movie dataset
 - Optional: Your Anthropic API Key — AI explanations are optional; the recommender works without them
 
-Step 1 — Get the code<br>
-Open a terminal in VSCode and run:<br>
-- **git clone https://github.com/yourusername/CineMatch.git**<br>
-- **cd CineMatch**<br>
-<br>
-In bash terminal:<br>
-- **python -m venv venv**<br>
-<br>
-Then activate it:<br>
-- **source venv/bin/activate**        # Mac/Linux/JupyterHub<br>
-- **venv\Scripts\activate**           # Windows Command Prompt<br>
-- **.\venv\Scripts\Activate.ps1**     # Windows PowerShell<br>
-You'll know it worked when you see (venv) at the start of your terminal line.<br>
-Then install all dependencies in the bash terminal:<br>
-- **pip install -r requirements.txt**<br>
+<p><strong>Step 1 — Get the code</strong></p>
+
+<p>Open a terminal in VSCode and run:</p>
+
+<pre><code>git clone https://github.com/yourusername/CineMatch.git
+
+cd CineMatch</code></pre>
+
+<p>In bash terminal:</p>
+
+<pre><code><strong>python -m venv venv</strong></code></pre>
+
+<p>Then activate it:</p>
+
+<pre><code><strong>source venv/bin/activate</strong>  # Mac/Linux/JupyterHub
+
+<strong>venv\Scripts\activate</strong>  # Windows Command Prompt
+
+<strong>.\venv\Scripts\Activate.ps1</strong>  # Windows PowerShell</code></pre>
+
+<p>You’ll know it worked when you see <strong>(venv)</strong> at the start of your terminal line.</p>
+
+<p>Then install all dependencies in the bash terminal:</p>
+
+<pre><code><strong>pip install -r requirements.txt</strong></code></pre>
 
 Step 2 — Add your Anthropic API key (optional)<br>
 Create a .env file in the CineMatch folder:<br>
