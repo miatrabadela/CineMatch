@@ -25,29 +25,31 @@ What you need before starting:<br>
 
 Step 1 — Get the code<br>
 Open a terminal in VSCode and run:<br>
-- **git clone https://github.com/yourusername/CineMatch.git**
-- **cd CineMatch**
+- **git clone https://github.com/yourusername/CineMatch.git**<br>
+- **cd CineMatch**<br>
+<br>
 In bash terminal:<br>
-- python -m venv venv
+- **python -m venv venv**<br>
+<br>
 Then activate it:<br>
-- **source venv/bin/activate**        # Mac/Linux/JupyterHub
-- **venv\Scripts\activate**           # Windows Command Prompt
-- **.\venv\Scripts\Activate.ps1**     # Windows PowerShell
+- **source venv/bin/activate**        # Mac/Linux/JupyterHub<br>
+- **venv\Scripts\activate**           # Windows Command Prompt<br>
+- **.\venv\Scripts\Activate.ps1**     # Windows PowerShell<br>
 You'll know it worked when you see (venv) at the start of your terminal line.<br>
 Then install all dependencies in the bash terminal:<br>
 - **pip install -r requirements.txt**<br>
 
 Step 2 — Add your Anthropic API key (optional)<br>
 Create a .env file in the CineMatch folder:<br>
-- **ANTHROPIC_API_KEY=sk-ant-your-key-here**
-If you skip this, the app will ask for your key on first launch.
+- **ANTHROPIC_API_KEY=sk-ant-your-key-here**<br>
+If you skip this, the app will ask for your key on first launch.<br>
 
 Step 3 — Download the movie dataset<br>
-Dataset Setup
-Download the following files and place them in the data/ folder. None of these are committed to Git due to file size — you must download them manually.
-TMDB 5000 (required)
-Download from: kaggle.com/datasets/tmdb/tmdb-movie-metadata
-Place these two files in data/:
+Dataset Setup:<br>
+Download the following files and place them in the **data/** folder. None of these are committed to Git due to file size — you must download them manually.<br>
+TMDB 5000 (required)<br>
+Download from: kaggle.com/datasets/tmdb/tmdb-movie-metadata<br>
+Place these two files in **data/**:<br>
 
 - **tmdb_5000_movies.csv**
 - **tmdb_5000_credits.csv**
