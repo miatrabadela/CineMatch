@@ -65,7 +65,8 @@ Create a .env file in the CineMatch folder:<br></p>
 
 <p>Step 3 — Download the movie dataset<br>
 Dataset Setup:<br>
-Download the following files and place them in the <strong>data/</strong> folder. None of these are committed to Git due to file size — you must download them manually.<br>
+Download all datasets pre-packaged: <strong>https://drive.google.com/drive/folders/1_2eeEX3X_avbvcCGYXQQOkN-5Jdr2k_r?usp=drive_link</strong><br>
+Or download the following files and place them in the <strong>data/</strong> folder. None of these are committed to Git due to file size — you must download them manually.<br>
 TMDB 5000 (required)<br>
 Download from: kaggle.com/datasets/tmdb/tmdb-movie-metadata<br>
 Place these two files in <strong>data/</strong>:<br></p>
