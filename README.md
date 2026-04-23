@@ -98,6 +98,7 @@ Download from: grouplens.org/datasets/movielens (MovieLens 25M)<br>
 <p>Create the <strong>data</strong> folder: </p>
 In the terminal, run: <br>
 <pre><code><strong>mkdir data</strong></code></pre>
+You should now see a <strong>data</strong> folder appear on the sidebar.
   
 Place these files in data/:</p>
 
