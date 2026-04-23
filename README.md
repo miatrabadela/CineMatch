@@ -30,7 +30,7 @@ Since I was 10, I've been a big film person, and I kept running into the same fr
 <h1>How to Run:</h1>
 
 <p>What you need before starting:<br>
-- Python 3.10 or newer — download at python.org<br>
+- Python 3.12 — download at python.org<br>
 - VSCode — download at code.visualstudio.com<br>
 - Git — download at git-scm.com | Important: During install, make sure you select: “Git from the command line and also from 3rd-party software” <br>
 - A free Kaggle account — needed to download the movie dataset<br>
