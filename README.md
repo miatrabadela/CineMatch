@@ -57,6 +57,10 @@ Since I was 10, I've been a big film person, and I kept running into the same fr
 <pre><code><strong>python -m pip install --upgrade pip</strong></code></pre>
 <pre><code><strong>pip install -r requirements.txt</strong></code></pre>
 
+<p>This step will take a few minutes for everything to install. Once it does, enter the prompt below into the bash terminal: </p>
+<pre><code><strong>code .</strong></code></pre>
+<p>The CineMatch files should now open up.</p>
+
 <p>Step 2 — Add your Anthropic API key (optional)<br>
 Create a .env file in the CineMatch folder:<br></p>
 
