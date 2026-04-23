@@ -54,6 +54,7 @@ Since I was 10, I've been a big film person, and I kept running into the same fr
 <p>You’ll know it worked when you see <strong>(venv)</strong> at the start of your terminal line.</p>
 
 <p>Then install all dependencies in the bash terminal:</p>
+<pre><code><strong>python -m pip install --upgrade pip</strong></code></pre>
 <pre><code><strong>pip install -r requirements.txt</strong></code></pre>
 
 <p>Step 2 — Add your Anthropic API key (optional)<br>
