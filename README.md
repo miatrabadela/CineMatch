@@ -94,12 +94,19 @@ Place these files in data/:</p>
 
 <p>MovieLens Tag Genome (recommended — improves search relevance dramatically)<br>
 Download from: grouplens.org/datasets/movielens (MovieLens 25M)<br>
+
+<p>Create the <strong>data</strong> folder: </p>
+In the terminal, run: <br>
+<pre><code><strong>mkdir data</strong></code></pre>
+  
 Place these files in data/:</p>
 
 <ul>
 <li><strong>genome-scores.csv</strong></li>
 <li><strong>genome-tags.csv</strong></li>
 </ul>
+
+
 
 <p>Generated files (created automatically by the scripts — do not download)<br>
 These files are created when you run the pipeline scripts below:</p>
