@@ -115,7 +115,6 @@ These files are created when you run the pipeline scripts below:</p>
 <ul>
 <li><strong>merged_movies.csv</strong> — created by merge_datasets.py</li>
 <li><strong>merged_credits.csv</strong> — created by merge_datasets.py</li>
-<li><strong>enriched_movies.csv</strong>  — created by enrich_tags.py</li>
 </ul>
 
 <p>Step 4 — Build the movie index<br>
@@ -123,7 +122,6 @@ This is a one-time setup step that reads the dataset, converts every movie into 
 In bash terminal:</p>
 
 <pre><code><strong>python merge_datasets.py</strong>
-<strong>python enrich_tags.py</strong>
 <strong>python build_index.py</strong></code></pre>
 
 <p>You'll see a progress bar as it processes movies. When it finishes, you'll see two new files appear in the embeddings/ folder. Note: build_index.py is a one-time step. After it finishes, you never run it again unless you change the dataset.<br></p>
