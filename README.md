@@ -47,7 +47,7 @@ Since I was 10, I've been a big film person, and I kept running into the same fr
 <pre><code><strong>python -m venv venv</strong></code></pre>
 
 <p>Then activate it:</p>
-<pre><code><strong>source venv/bin/activate</strong>  # Mac/Linux/JupyterHub
+<pre><code><strong>source venv/bin/activate</strong>  # Mac/Linux/JupyterHub/Windows
 <strong>venv\Scripts\activate</strong>  # Windows Command Prompt
 <strong>.\venv\Scripts\Activate.ps1</strong>  # Windows PowerShell</code></pre>
 
