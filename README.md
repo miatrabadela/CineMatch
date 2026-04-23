@@ -43,8 +43,8 @@ Since I was 10, I've been a big film person, and I kept running into the same fr
 <pre><code><strong>git clone https://github.com/yourusername/CineMatch.git</strong>
 <strong>cd CineMatch</strong></code></pre>
 
-<p>In bash terminal:</p>
-<pre><code><strong>python -m venv venv</strong></code></pre>
+<p>In powershell terminal:</p>
+<pre><code><strong>py -3.12 -m venv venv</strong></code></pre>
 
 <p>Then activate it:</p>
 <pre><code><strong>source venv/bin/activate</strong>  # Mac/Linux/JupyterHub/Windows
@@ -53,11 +53,11 @@ Since I was 10, I've been a big film person, and I kept running into the same fr
 
 <p>You’ll know it worked when you see <strong>(venv)</strong> at the start of your terminal line.</p>
 
-<p>Then install all dependencies in the bash terminal:</p>
+<p>Then install all dependencies in the terminal:</p>
 <pre><code><strong>python -m pip install --upgrade pip</strong></code></pre>
 <pre><code><strong>pip install -r requirements.txt</strong></code></pre>
 
-<p>This step will take a few minutes for everything to install. Once it does, enter the prompt below into the bash terminal: </p>
+<p>This step will take a few minutes for everything to install. Once it does, enter the prompt below into the terminal: </p>
 <pre><code><strong>code .</strong></code></pre>
 <p>The CineMatch files should now open up.</p>
 
@@ -119,7 +119,7 @@ These files are created when you run the pipeline scripts below:</p>
 
 <p>Step 4 — Build the movie index<br>
 This is a one-time setup step that reads the dataset, converts every movie into a searchable vector, and saves it to disk. It takes around 5–10 minutes the first time.<br>
-In bash terminal:</p>
+In powershell terminal:</p>
 
 <pre><code><strong>python merge_datasets.py</strong>
 <strong>python build_index.py</strong></code></pre>
@@ -127,7 +127,7 @@ In bash terminal:</p>
 <p>You'll see a progress bar as it processes movies. When it finishes, you'll see two new files appear in the embeddings/ folder. Note: build_index.py is a one-time step. After it finishes, you never run it again unless you change the dataset.<br></p>
 
 <p>Step 5 — Launch the app<br>
-In bash terminal:</p>
+In powershell terminal:</p>
 
 <pre><code><strong>streamlit run 4_app.py</strong></code></pre>
 
@@ -137,7 +137,7 @@ The app will walk you through the rest — including whether you want to add a C
 <p>How to Run (returning users)<br>
 Every time you come back to the project, just run:</p>
 
-<pre><code><strong>bashsource venv/bin/activate</strong>
+<pre><code><strong>source venv/bin/activate</strong>
 <strong>streamlit run 4_app.py</strong></code></pre>
 
 <p>That's it. The index loads from disk in seconds.</p>
